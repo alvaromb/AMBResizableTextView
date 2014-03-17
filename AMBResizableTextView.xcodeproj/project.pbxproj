@@ -19,6 +19,7 @@
 		38570D4618D7366100E0E81B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38570D2E18D7366100E0E81B /* UIKit.framework */; };
 		38570D4E18D7366100E0E81B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38570D4C18D7366100E0E81B /* InfoPlist.strings */; };
 		38570D5018D7366100E0E81B /* AMBResizableTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38570D4F18D7366100E0E81B /* AMBResizableTextViewTests.m */; };
+		38570D5B18D738BF00E0E81B /* AMBResizableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		38570D4B18D7366100E0E81B /* AMBResizableTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMBResizableTextViewTests-Info.plist"; sourceTree = "<group>"; };
 		38570D4D18D7366100E0E81B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38570D4F18D7366100E0E81B /* AMBResizableTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBResizableTextViewTests.m; sourceTree = "<group>"; };
+		38570D5918D738BF00E0E81B /* AMBResizableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBResizableTextView.h; sourceTree = "<group>"; };
+		38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBResizableTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		38570D1E18D7366000E0E81B = {
 			isa = PBXGroup;
 			children = (
+				38570D5918D738BF00E0E81B /* AMBResizableTextView.h */,
+				38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */,
 				38570D3018D7366100E0E81B /* AMBResizableTextView */,
 				38570D4918D7366100E0E81B /* AMBResizableTextViewTests */,
 				38570D2918D7366000E0E81B /* Frameworks */,
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38570D3718D7366100E0E81B /* main.m in Sources */,
+				38570D5B18D738BF00E0E81B /* AMBResizableTextView.m in Sources */,
 				38570D3B18D7366100E0E81B /* AMBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +450,7 @@
 				38570D5518D7366100E0E81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38570D5618D7366100E0E81B /* Build configuration list for PBXNativeTarget "AMBResizableTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +459,7 @@
 				38570D5818D7366100E0E81B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
