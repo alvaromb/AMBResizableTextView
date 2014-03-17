@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AMBTestViewController.h"
 
 @interface AMBAppDelegate : UIResponder <UIApplicationDelegate>
 

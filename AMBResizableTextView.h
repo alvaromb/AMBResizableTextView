@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AMBTextView.h"
 
-@interface AMBResizableTextView : UIView
+@interface AMBResizableTextView : UIView <UITextViewDelegate>
+
+@property (strong, nonatomic) UITextView *textView;
+@property (strong, nonatomic) UIFont *textViewFont;
+
+@property (assign, nonatomic) CGFloat minHeight;
 
 @end

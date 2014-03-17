@@ -20,6 +20,8 @@
 		38570D4E18D7366100E0E81B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38570D4C18D7366100E0E81B /* InfoPlist.strings */; };
 		38570D5018D7366100E0E81B /* AMBResizableTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38570D4F18D7366100E0E81B /* AMBResizableTextViewTests.m */; };
 		38570D5B18D738BF00E0E81B /* AMBResizableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */; };
+		38570D5F18D739A500E0E81B /* AMBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38570D5E18D739A500E0E81B /* AMBTestViewController.m */; };
+		38570D6218D7535F00E0E81B /* AMBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38570D6118D7535F00E0E81B /* AMBTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		38570D4F18D7366100E0E81B /* AMBResizableTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBResizableTextViewTests.m; sourceTree = "<group>"; };
 		38570D5918D738BF00E0E81B /* AMBResizableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBResizableTextView.h; sourceTree = SOURCE_ROOT; };
 		38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBResizableTextView.m; sourceTree = SOURCE_ROOT; };
+		38570D5D18D739A500E0E81B /* AMBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBTestViewController.h; sourceTree = "<group>"; };
+		38570D5E18D739A500E0E81B /* AMBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBTestViewController.m; sourceTree = "<group>"; };
+		38570D6018D7535F00E0E81B /* AMBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBTextView.h; sourceTree = "<group>"; };
+		38570D6118D7535F00E0E81B /* AMBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				38570D5C18D7392000E0E81B /* Class */,
+				38570D5D18D739A500E0E81B /* AMBTestViewController.h */,
+				38570D5E18D739A500E0E81B /* AMBTestViewController.m */,
 				38570D3918D7366100E0E81B /* AMBAppDelegate.h */,
 				38570D3A18D7366100E0E81B /* AMBAppDelegate.m */,
 				38570D3C18D7366100E0E81B /* Images.xcassets */,
@@ -153,6 +161,8 @@
 			children = (
 				38570D5918D738BF00E0E81B /* AMBResizableTextView.h */,
 				38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */,
+				38570D6018D7535F00E0E81B /* AMBTextView.h */,
+				38570D6118D7535F00E0E81B /* AMBTextView.m */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -253,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38570D6218D7535F00E0E81B /* AMBTextView.m in Sources */,
 				38570D3718D7366100E0E81B /* main.m in Sources */,
+				38570D5F18D739A500E0E81B /* AMBTestViewController.m in Sources */,
 				38570D5B18D738BF00E0E81B /* AMBResizableTextView.m in Sources */,
 				38570D3B18D7366100E0E81B /* AMBAppDelegate.m in Sources */,
 			);
