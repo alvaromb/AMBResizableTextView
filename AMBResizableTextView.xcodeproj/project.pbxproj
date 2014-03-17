@@ -49,8 +49,8 @@
 		38570D4B18D7366100E0E81B /* AMBResizableTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMBResizableTextViewTests-Info.plist"; sourceTree = "<group>"; };
 		38570D4D18D7366100E0E81B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38570D4F18D7366100E0E81B /* AMBResizableTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMBResizableTextViewTests.m; sourceTree = "<group>"; };
-		38570D5918D738BF00E0E81B /* AMBResizableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBResizableTextView.h; sourceTree = "<group>"; };
-		38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBResizableTextView.m; sourceTree = "<group>"; };
+		38570D5918D738BF00E0E81B /* AMBResizableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBResizableTextView.h; sourceTree = SOURCE_ROOT; };
+		38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBResizableTextView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,6 @@
 		38570D1E18D7366000E0E81B = {
 			isa = PBXGroup;
 			children = (
-				38570D5918D738BF00E0E81B /* AMBResizableTextView.h */,
-				38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */,
 				38570D3018D7366100E0E81B /* AMBResizableTextView */,
 				38570D4918D7366100E0E81B /* AMBResizableTextViewTests */,
 				38570D2918D7366000E0E81B /* Frameworks */,
@@ -112,6 +110,7 @@
 		38570D3018D7366100E0E81B /* AMBResizableTextView */ = {
 			isa = PBXGroup;
 			children = (
+				38570D5C18D7392000E0E81B /* Class */,
 				38570D3918D7366100E0E81B /* AMBAppDelegate.h */,
 				38570D3A18D7366100E0E81B /* AMBAppDelegate.m */,
 				38570D3C18D7366100E0E81B /* Images.xcassets */,
@@ -147,6 +146,15 @@
 				38570D4C18D7366100E0E81B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38570D5C18D7392000E0E81B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				38570D5918D738BF00E0E81B /* AMBResizableTextView.h */,
+				38570D5A18D738BF00E0E81B /* AMBResizableTextView.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
